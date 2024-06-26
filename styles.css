@@ -48,3 +48,33 @@ li:hover {
     box-shadow: 3px 5px 7px;
 
 }
+
+.hero-section {
+    color: white;
+    background-color: black;
+    padding-top: 10em;
+    align-items: center;
+}
+
+.about-section {
+    color: white;
+    background-color: black;
+    padding-top: 10em;
+    align-items: center;
+}
+
+.projects-section{
+    color: white;
+    background-color: black;
+    padding-top: 10em;
+    align-items: center;
+}
+
+
+
+h1, h2, p {
+    letter-spacing:  3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
