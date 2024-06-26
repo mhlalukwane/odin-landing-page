@@ -3,7 +3,10 @@ html, body, header {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
+    background-color: black;
+    letter-spacing: 3px;
 }
+
 
 .container {
     margin: 0;
@@ -53,25 +56,26 @@ li:hover {
 
 .hero-section {
     color: white;
-    background-color: black;
-    padding-top: 10em;
-    display: flex;
-    justify-content: center;
-    align-items: center
+    padding-top: 15em;
+    padding-left: 10em;
+    
+    
+}
+.hero-image {
+    padding-left: 58em;
+    margin-top: -210px;
+    
+}
+.profile-image {
+    border-radius: 100%;
 }
 
-.about-section {
+.about-section, .projects-section, .quote, .stack, .contact {
     color: white;
-    background-color: black;
-    padding-top: 10em;
-    align-items: center;
+   
 }
 
-.projects-section{
-    color: white;
-    background-color: black;
-    padding-top: 10em;
-    align-items: center;
-}
+
+
 
 
