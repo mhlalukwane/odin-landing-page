@@ -1,15 +1,50 @@
-.logo-text {
-    color: red;
-    padding: 1%;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 28px:
+html, body, header {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 7vw;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 5px 5px rgb(0, 0, 0, 0.4);
+
+}
+
+h3 {
+    padding: 1em;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+
+}
+
+ul, li {
+    list-style: none;
+    display: flex;
+    padding: 1em;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin: 0.5em;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 20px;
 
 
 }
 
-.navigation{
-    padding-left: 80%;
-    margin-bottom: 0;
+li:hover {
+    bacground-color: green;
+    box-shadow: 3px 5px 7px;
 
 }
