@@ -18,9 +18,6 @@ html, body, header {
     box-shadow: 3px 5px 5px rgb(0, 0, 0, 0.4);
 
 }
-.hero-image {
-    border: 4px solid black;
-}
 
 
 h3 {
@@ -58,7 +55,9 @@ li:hover {
     color: white;
     background-color: black;
     padding-top: 10em;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 .about-section {
@@ -73,13 +72,6 @@ li:hover {
     background-color: black;
     padding-top: 10em;
     align-items: center;
-}
-
-
-
-h1, h2, p {
-    letter-spacing:  3px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
