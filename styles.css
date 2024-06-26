@@ -19,7 +19,6 @@ html, body, header {
     align-items: center;
     justify-content: space-around;
     box-shadow: 3px 5px 5px rgb(0, 0, 0, 0.4);
-
 }
 
 
@@ -44,35 +43,38 @@ li {
     color: #FFFFFF;
     padding: 10px 15px;
     border-radius: 20px;
-
-
 }
 
 li:hover {
     background-color: rgb(70, 79, 70);
     box-shadow: 3px 5px 7px;
-
 }
 
 .hero-section {
     color: white;
     padding-top: 15em;
     padding-left: 10em;
-    
-    
 }
 .hero-image {
     padding-left: 58em;
-    margin-top: -210px;
-    
+    margin-top: -210px; 
 }
+
 .profile-image {
     border-radius: 100%;
 }
 
+.explore-button {
+    padding-left: 18em;
+    margin-top: -150px;
+}
+
 .about-section, .projects-section, .quote, .stack, .contact {
     color: white;
-   
+}
+
+.about-section {
+    
 }
 
 
