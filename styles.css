@@ -56,8 +56,11 @@ li:hover {
     padding-left: 10em;
 }
 .hero-image {
-    padding-left: 58em;
-    margin-top: -300px; 
+    padding-left: 65em;
+    margin-top: -350px; 
+}
+.hero-container {
+    padding-left: 10em;
 }
 
 .profile-image {
@@ -69,17 +72,34 @@ li:hover {
     margin-top: -30px;
 }
 
-.about-section, .projects-section, .quote, .stack, .contact {
+.about-section, .projects-section, .stack, .contact {
     color: white;
     padding-left: 10em;
-    margin-top: 150px;
+    margin-top: 450px;
+}
+
+.project-title{
+    margin-top: -200px;
+}
+.projects-container {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    padding-left: 20em;
+    justify-content: space-between;
+    gap: 3em;
 }
 
 
-.quote{
-    margin-top: -3px;
-    padding-right: 5em;
+.stack-container{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    padding-left: 20em;
+    justify-content: space-between;
+    gap: 3em;
 }
+
 
 
 
