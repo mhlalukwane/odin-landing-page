@@ -57,7 +57,7 @@ li:hover {
 }
 .hero-image {
     padding-left: 58em;
-    margin-top: -210px; 
+    margin-top: -300px; 
 }
 
 .profile-image {
@@ -65,16 +65,20 @@ li:hover {
 }
 
 .explore-button {
-    padding-left: 18em;
-    margin-top: -150px;
+    padding-left: 17em;
+    margin-top: -30px;
 }
 
 .about-section, .projects-section, .quote, .stack, .contact {
     color: white;
+    padding-left: 10em;
+    margin-top: 150px;
 }
 
-.about-section {
-    
+
+.quote{
+    margin-top: -3px;
+    padding-right: 5em;
 }
 
 
